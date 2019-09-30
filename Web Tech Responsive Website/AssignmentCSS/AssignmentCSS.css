@@ -1,0 +1,899 @@
+body{
+	background-color: #1BB19A;
+	text-align:center;
+}
+
+#clock{
+	color: black;
+	margin: 4px 4px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+button {
+    background-color: white; 
+    border: 2px solid #555555;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 4px;
+}
+
+header{ 
+	background: linear-gradient(45deg, red, blue);
+}
+
+footer{
+	background-color: white;
+}
+
+.nav{ 
+	display: block;
+	font-family: impact;
+	background-color: white;
+	height:100%;
+}
+
+.lfcbadge{ 
+	float:left;
+}
+
+.efcbadge{ 
+	float:right;
+}
+
+a{ 
+	background-color: white;
+    color: #D7181F;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+	color: white;
+	background-color: #D7181F;
+}
+
+#club{
+	float: left;
+}
+
+#players{
+	float: right;
+}
+
+.Liverpool{
+	text-align: center;
+	font-family: impact;
+	color: white;
+}
+
+.Vs{ 
+	text-align: center;
+	font-family: impact;
+	color: white;
+}
+	
+.Everton{
+	text-align: center;
+	font-family: impact;
+	color: white;
+}
+
+h1, h2, h3, h4{
+	font-family:Impact, Charcoal, sans-serif;
+	color: white;
+	text-align: center;
+}
+	
+.boxes{
+	font-family: Ariel, Helvetica, sans-serif;
+	background-color: white;
+	margin-bottom: 2px;
+	margin-top: 15px;
+}
+
+.lfctext{
+	color: #D7181F;
+}
+
+.efctext{
+	color: #0032A1;
+}	
+
+.lfchistory{
+	color: #D7181F;
+	text-align: left;
+}
+
+.efchistory{
+	color: #0032A1;
+	text-align: left;
+}
+
+#lfckitinfo{
+	color: #D7181F;
+}	
+
+tr:hover{
+	background-color: white;
+}
+
+.grey{
+    background-color: lightgrey;
+}
+
+.white{
+    background-color: white;
+}
+
+.red{
+    background-color: #FF0000;
+}
+
+.blue{
+    background-color: #4080FE;
+}
+
+ul{
+	list-style-position: inside;
+	text-align:left;
+}
+
+.player{
+	float: right;
+}
+
+.lfcsite{
+	font-family: Ariel, Helvetica, sans-serif;
+}
+
+.efcsite{
+	color: #0032A1;
+	font-family: Ariel, Helvetica, sans-serif;
+}
+
+.efcsite:hover{
+	color: white;
+	background-color: #0032A1;
+}
+
+.lfcbadgefoot{
+		float: left;
+}
+	
+.efcbadgefoot{
+		float: right;
+}
+
+
+
+/*Min Screen*/
+
+
+
+@media only screen and (min-width: 267px)
+{
+	button {
+    padding: 2px 4px;
+    font-size: 12px;
+	}
+
+	header{ 
+		width: 100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+	}
+
+	footer{
+		width:100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+		margin-top: 20px;
+		height: 100%;
+	}
+
+	.nav{ 
+		width: 100%;
+		border: 2px solid black;
+		margin-top: 2px;
+	}
+
+	.lfcbadge{ 
+		margin-left: 10px;
+		margin-top: 12px;
+		width: 55px;
+		height: 70px;
+	}
+	
+	.efcbadge{ 
+		width: 70px;
+		height: 85px;
+		margin-top: 8px;
+	}
+
+	a{ 
+		font-size: 16px;
+		padding: 5px 5px;
+	}
+
+	a:hover {
+		text-shadow: 2px 2px 5px black;
+	}
+
+	.Liverpool{
+		font-size: 25px;
+		margin-right: 40%;
+		margin-top: 5px;
+	}
+
+	.Vs{ 
+		font-size: 25px;
+	}
+		
+	.Everton{
+		font-size: 25px;
+		margin-left: 35%;
+	}
+
+	h1, h2, h3, h4{
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		font-size: 300%;
+	}
+		
+	.boxes{
+		width: 100%;
+		border: 2px solid black;
+		font-size: 15px;
+	}
+
+	#lfcstadium{
+		border: 2px solid black;
+		margin-top: 20px;
+	}
+
+	#efcstadium{
+		border: 2px solid black;
+	}
+
+	#lfckitinfo{
+		margin-top: 10px;
+	}
+
+	#lfckitaway{
+		padding-left: 15px;
+		padding-right: 5px;
+	}
+
+	#efckitaway{
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+
+	table{
+		width: 100%;
+	}
+
+	th, td{
+		padding: 4px;
+	}
+
+
+	.player{
+		width:100%;
+		margin-bottom: 10px;
+	}
+	
+	.player#rush{
+		width:100%;
+		margin-bottom: 20px;
+		float: right;
+	}
+
+	.lfcbadgefoot{
+		height:0px;
+		width:0px;
+	}
+	
+	.efcbadgefoot{
+		height:0px;
+		width:0px;
+	}
+
+	
+}
+
+
+
+/*One Quarter Screen*/
+
+
+
+@media only screen and (min-width: 600px)
+{
+	button {
+    padding: 3px 6px;
+    font-size: 14px;
+	}
+	
+	header{ 
+		width: 100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+	}
+
+	footer{
+		width:100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+		margin-top: 20px;
+		height: 100%;
+	}
+
+	.nav{ 
+		width: 100%;
+		border: 2px solid black;
+		margin-top: 2px;
+	}
+
+	.lfcbadge{ 
+		margin-left: 10px;
+		margin-top: 10px;
+		width: 75px;
+		height: 95px;
+	}
+	
+	.efcbadge{ 
+		width: 95px;
+		height: 110px;
+		margin-top: 7px;
+	}
+
+	a{ 
+		font-size: 18px;
+		padding: 5px 5px;
+	}
+
+	a:hover {
+		text-shadow: 2px 2px 5px black;
+	}
+
+	.Liverpool{
+		font-size: 30px;
+		margin-right: 40%;
+		margin-top: 5px;
+	}
+
+	.Vs{ 
+		font-size: 30px;
+	}
+		
+	.Everton{
+		font-size: 30px;
+		margin-left: 35%;
+	}
+
+	h1, h2, h3, h4{
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		font-size: 275%;
+	}
+		
+	.boxes{
+		width: 100%;
+		border: 2px solid black;
+		font-size: 16px;
+	}
+
+	#lfcstadium{
+		border: 2px solid black;
+		margin-top: 20px;
+	}
+
+	#efcstadium{
+		border: 2px solid black;
+	}
+
+	#lfckitinfo{
+		margin-top: 10px;
+	}
+
+	#lfckitaway{
+		padding-left: 15px;
+		padding-right: 5px;
+	}
+
+	#efckitaway{
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+
+	table{
+		width: 100%;
+	}
+
+	th, td{
+		padding: 4px;
+	}
+
+
+	.player{
+		width:100%;
+		margin-bottom: 10px;
+	}
+	
+	.player#rush{
+		width:100%;
+		margin-bottom: 20px;
+		float: right;
+	}
+
+	.lfcbadgefoot{
+		height:30px;
+		width:24px;
+		float: left;
+		margin-left:5px;
+		margin-top: 1px;
+	}
+	
+	.efcbadgefoot{
+		height:35px;
+		width:30px;
+		float: right;
+		margin-left:5px;
+	}
+
+	
+}
+
+
+
+/*Half Screen*/
+
+
+
+@media only screen and (min-width: 930px)
+{
+	button {
+    padding: 4px 8px;
+    font-size: 16px;
+	}
+	
+	header{ 
+		width: 100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+	}
+
+	footer{
+		width:100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+		margin-top: 20px;
+		height: 100%;
+	}
+
+	.nav{ 
+		width: 100%;
+		border: 2px solid black;
+		margin-top: 2px;
+	}
+
+	.lfcbadge{ 
+		margin-left: 10px;
+		margin-top: 5px;
+		width: 95px;
+		height: 120px;
+	}
+	
+	.efcbadge{ 
+		width: 115px;
+		height: 125px;
+		margin-top: 7px;
+	}
+
+	a{ 
+		font-size: 20px;
+		padding: 5px 5px;
+	}
+
+	a:hover {
+		text-shadow: 2px 2px 5px black;
+	}
+
+	.Liverpool{
+		font-size: 35px;
+		margin-right: 40%;
+		margin-top: 5px;
+	}
+
+	.Vs{ 
+		font-size: 35px;
+	}
+		
+	.Everton{
+		font-size: 35px;
+		margin-left: 35%;
+	}
+
+	h1, h2, h3, h4{
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		font-size: 250%;
+	}
+		
+	.boxes{
+		width: 100%;
+		border: 2px solid black;
+		font-size: 17px;
+	}
+
+	#lfcstadium{
+		border: 2px solid black;
+		margin-top: 20px;
+	}
+
+	#efcstadium{
+		border: 2px solid black;
+	}
+
+	#lfckitinfo{
+		margin-top: 10px;
+	}
+
+	#lfckitaway{
+		padding-left: 15px;
+		padding-right: 5px;
+	}
+
+	#efckitaway{
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+
+	table{
+		width: 100%;
+	}
+
+	th, td{
+		padding: 4px;
+	}
+
+
+	.player{
+		width: 18%;
+		height:134px;
+		float: right;
+	}
+	
+	.player#rush{
+		width:30%;
+		height: 234px;
+		float: right;
+	}
+
+	.lfcbadgefoot{
+		height:30px;
+		width:24px;
+		float: left;
+		margin-left:5px;
+		margin-top: 1px;
+	}
+	
+	.efcbadgefoot{
+		height:35px;
+		width:30px;
+		float: right;
+		margin-left:5px;
+	}
+
+	
+}
+
+
+/*Three Quarter Screen*/
+
+
+
+@media only screen and (min-width: 1400px)
+{
+	button {
+    padding: 5px 10px;
+    font-size: 16px;
+	}
+	
+	header{ 
+		width: 100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+	}
+
+	footer{
+		width:100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+		margin-top: 20px;
+		height: 100%;
+	}
+
+	.nav{ 
+		width: 100%;
+		border: 2px solid black;
+		margin-top: 2px;
+	}
+
+	.lfcbadge{ 
+		margin-left: 10px;
+		margin-top: 5px;
+		width: 110px;
+		height: 135px;
+	}
+	
+	.efcbadge{ 
+		width: 135px;
+		height: 155px;
+		margin-top: -1px;
+	}
+
+	a{ 
+		font-size: 22px;
+		padding: 5px 5px;
+	}
+
+	a:hover {
+		text-shadow: 2px 2px 5px black;
+	}
+
+	.Liverpool{
+		font-size: 40px;
+		margin-right: 40%;
+		margin-top: 5px;
+	}
+
+	.Vs{ 
+		font-size: 40px;
+	}
+		
+	.Everton{
+		font-size: 40px;
+		margin-left: 35%;
+	}
+
+	h1, h2, h3, h4{
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		font-size: 225%;
+	}
+		
+	.boxes{
+		width: 100%;
+		border: 2px solid black;
+		font-size: 19px;
+	}
+
+	#lfcstadium{
+		border: 2px solid black;
+		margin-top: 20px;
+	}
+
+	#efcstadium{
+		border: 2px solid black;
+	}
+
+	#lfckitinfo{
+		margin-top: 10px;
+	}
+
+	#lfckitaway{
+		padding-left: 15px;
+		padding-right: 5px;
+	}
+
+	#efckitaway{
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+
+	table{
+		width: 100%;
+	}
+
+	th, td{
+		padding: 4px;
+	}
+
+
+	.player{
+		width:30%;
+		height:134px;
+		margin-bottom: 10px;
+	}
+	
+	.player#rush{
+		width:30%;
+		height: 234px;
+		float: right;
+	}
+
+	.lfcbadgefoot{
+		height:30px;
+		width:24px;
+		float: left;
+		margin-left:5px;
+		margin-top: 1px;
+	}
+	
+	.efcbadgefoot{
+		height:35px;
+		width:30px;
+		float: right;
+		margin-left:5px;
+	}
+
+	
+}
+
+
+
+/*Full Screen*/
+
+
+
+@media only screen and (min-width: 1400px)
+{
+	button {
+    padding: 6px 12px;
+    font-size: 18px;
+	}
+	
+	header{ 
+		width: 100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+	}
+
+	footer{
+		width:100%;
+		border: 2px solid black;
+		text-shadow: 2px 2px 5px black;
+		margin-top: 20px;
+		height: 100%;
+	}
+
+	.nav{ 
+		width: 100%;
+		border: 2px solid black;
+		margin-top: 2px;
+	}
+
+	.lfcbadge{ 
+		margin-left: 10px;
+		margin-top: 10px;
+		width: 125px;
+		height: 150px;
+	}
+	
+	.efcbadge{ 
+		width: 150px;
+		height: 170px;
+		margin-top: -1px;
+	}
+
+	a{ 
+		font-size: 24px;
+		padding: 5px 5px;
+	}
+
+	a:hover {
+		text-shadow: 2px 2px 5px black;
+	}
+
+	.Liverpool{
+		font-size: 45px;
+		margin-right: 40%;
+		margin-top: 5px;
+	}
+
+	.Vs{ 
+		font-size: 45px;
+	}
+		
+	.Everton{
+		font-size: 45px;
+		margin-left: 35%;
+	}
+
+	h1, h2, h3, h4{
+		text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+		font-size: 225%;
+	}
+		
+	.boxes{
+		width: 100%;
+		border: 2px solid black;
+		font-size: 21px;
+	}
+
+	#lfcstadium{
+		border: 2px solid black;
+		margin-top: 20px;
+	}
+
+	#efcstadium{
+		border: 2px solid black;
+	}
+
+	#lfckitinfo{
+		margin-top: 10px;
+	}
+
+	#lfckitaway{
+		padding-left: 15px;
+		padding-right: 5px;
+	}
+
+	#efckitaway{
+		padding-right: 20px;
+		padding-left: 10px;
+	}
+
+	table{
+		width: 100%;
+	}
+
+	th, td{
+		padding: 4px;
+	}
+
+
+	.player{
+		width:15%;
+		height:162px;
+		margin-bottom: 10px;
+	}
+	
+	.player#rush{
+		width:25%;
+		height: 282px;
+		float: right;
+	}
+
+	.lfcbadgefoot{
+		height:30px;
+		width:24px;
+		float: left;
+		margin-left:5px;
+		margin-top: 1px;
+	}
+	
+	.efcbadgefoot{
+		height:35px;
+		width:30px;
+		float: right;
+		margin-left:5px;
+	}
+
+	
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
